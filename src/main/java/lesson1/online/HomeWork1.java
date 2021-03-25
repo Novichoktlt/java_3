@@ -38,20 +38,21 @@ public class HomeWork1 {
         appleBox1.add(apple);
         appleBox1.add(apple);
         appleBox1.add(apple);
+        appleBox2.add(apple);
         orangeBox1.add(orange);
         orangeBox1.add(orange);
         appleBox1.getWeight();
         orangeBox1.getWeight();
 
-        System.out.println("Коробка1 - " + appleBox1.getWeight());
-        System.out.println("Коробка1 - " + orangeBox1.getWeight());
+        System.out.println("Коробка1 яблок - " + appleBox1.getWeight());
+        System.out.println("Коробка1 апельсинов - " + orangeBox1.getWeight());
         System.out.println(orangeBox1.compare(appleBox1));
         appleBox1.interlard(appleBox2);
         orangeBox1.interlard(orangeBox2);
-        System.out.println("Коробка1 - " + appleBox1.getWeight());
-        System.out.println("Коробка2 - " + appleBox2.getWeight());
-        System.out.println("Коробка1 - " + orangeBox1.getWeight());
-        System.out.println("Коробка2 - " + orangeBox2.getWeight());
+        System.out.println("Коробка1 яблок - " + appleBox1.getWeight());
+        System.out.println("Коробка2 яблок - "+ appleBox2.getWeight());
+        System.out.println("Коробка1 апельсинов - " + orangeBox1.getWeight());
+        System.out.println("Коробка2 апельсинов - " + orangeBox2.getWeight());
 
 
     }
