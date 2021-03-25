@@ -1,7 +1,7 @@
 package lesson1.online;
 
 import java.util.ArrayList;
-import java.util.Arrays;
+
 
 public class Box<F extends Fruit> {
 
